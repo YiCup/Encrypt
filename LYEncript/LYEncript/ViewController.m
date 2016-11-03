@@ -7,23 +7,32 @@
 //
 
 #import "ViewController.h"
+#import "LYDESHelper.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) NSString *testString;
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+- (IBAction)encode:(id)sender {
+    NSString *encode;
+    encode = [LYDESHelper encrypt:@"这是DES加密"];
+    NSLog(@"%@", encode);
+    self.testString = encode;
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)decode:(id)sender {
+    
+    if (!self.testString.length) {
+        return;
+    }
+    
+    NSString *decode;
+    decode = [LYDESHelper decrypt:self.testString];
+    NSLog(@"%@", decode);
 }
-
-
 @end

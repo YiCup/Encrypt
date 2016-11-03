@@ -15,6 +15,7 @@
 		B62DC0BD1DCAF242009DE789 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62DC0BB1DCAF242009DE789 /* LaunchScreen.storyboard */; };
 		B62DC0C81DCAF242009DE789 /* LYEncriptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B62DC0C71DCAF242009DE789 /* LYEncriptTests.m */; };
 		B62DC0D31DCAF242009DE789 /* LYEncriptUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B62DC0D21DCAF242009DE789 /* LYEncriptUITests.m */; };
+		B62DC0E21DCAF2AE009DE789 /* LYDESHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B62DC0E11DCAF2AE009DE789 /* LYDESHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B62DC0CE1DCAF242009DE789 /* LYEncriptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYEncriptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62DC0D21DCAF242009DE789 /* LYEncriptUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYEncriptUITests.m; sourceTree = "<group>"; };
 		B62DC0D41DCAF242009DE789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B62DC0E01DCAF2AE009DE789 /* LYDESHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDESHelper.h; sourceTree = "<group>"; };
+		B62DC0E11DCAF2AE009DE789 /* LYDESHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDESHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				B62DC0B11DCAF242009DE789 /* AppDelegate.m */,
 				B62DC0B31DCAF242009DE789 /* ViewController.h */,
 				B62DC0B41DCAF242009DE789 /* ViewController.m */,
+				B62DC0E01DCAF2AE009DE789 /* LYDESHelper.h */,
+				B62DC0E11DCAF2AE009DE789 /* LYDESHelper.m */,
 				B62DC0B61DCAF242009DE789 /* Main.storyboard */,
 				B62DC0B91DCAF242009DE789 /* Assets.xcassets */,
 				B62DC0BB1DCAF242009DE789 /* LaunchScreen.storyboard */,
@@ -202,6 +207,7 @@
 		B62DC0A21DCAF242009DE789 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LY;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = liyang;
 				TargetAttributes = {
@@ -275,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B62DC0B51DCAF242009DE789 /* ViewController.m in Sources */,
+				B62DC0E21DCAF2AE009DE789 /* LYDESHelper.m in Sources */,
 				B62DC0B21DCAF242009DE789 /* AppDelegate.m in Sources */,
 				B62DC0AF1DCAF242009DE789 /* main.m in Sources */,
 			);
@@ -512,6 +519,7 @@
 				B62DC0D91DCAF242009DE789 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B62DC0DA1DCAF242009DE789 /* Build configuration list for PBXNativeTarget "LYEncriptTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +528,7 @@
 				B62DC0DC1DCAF242009DE789 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B62DC0DD1DCAF242009DE789 /* Build configuration list for PBXNativeTarget "LYEncriptUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +537,7 @@
 				B62DC0DF1DCAF242009DE789 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
