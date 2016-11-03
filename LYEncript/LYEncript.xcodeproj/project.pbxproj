@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B62DC0AF1DCAF242009DE789 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B62DC0AE1DCAF242009DE789 /* main.m */; };
+		B62DC0B21DCAF242009DE789 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B62DC0B11DCAF242009DE789 /* AppDelegate.m */; };
+		B62DC0B51DCAF242009DE789 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62DC0B41DCAF242009DE789 /* ViewController.m */; };
+		B62DC0B81DCAF242009DE789 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62DC0B61DCAF242009DE789 /* Main.storyboard */; };
+		B62DC0BA1DCAF242009DE789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B62DC0B91DCAF242009DE789 /* Assets.xcassets */; };
+		B62DC0BD1DCAF242009DE789 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62DC0BB1DCAF242009DE789 /* LaunchScreen.storyboard */; };
+		B62DC0C81DCAF242009DE789 /* LYEncriptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B62DC0C71DCAF242009DE789 /* LYEncriptTests.m */; };
+		B62DC0D31DCAF242009DE789 /* LYEncriptUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B62DC0D21DCAF242009DE789 /* LYEncriptUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B62DC0C41DCAF242009DE789 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B62DC0A21DCAF242009DE789 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B62DC0A91DCAF242009DE789;
+			remoteInfo = LYEncript;
+		};
+		B62DC0CF1DCAF242009DE789 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B62DC0A21DCAF242009DE789 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B62DC0A91DCAF242009DE789;
+			remoteInfo = LYEncript;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B62DC0AA1DCAF242009DE789 /* LYEncript.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYEncript.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62DC0AE1DCAF242009DE789 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B62DC0B01DCAF242009DE789 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B62DC0B11DCAF242009DE789 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B62DC0B31DCAF242009DE789 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B62DC0B41DCAF242009DE789 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B62DC0B71DCAF242009DE789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B62DC0B91DCAF242009DE789 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B62DC0BC1DCAF242009DE789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B62DC0BE1DCAF242009DE789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B62DC0C31DCAF242009DE789 /* LYEncriptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYEncriptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62DC0C71DCAF242009DE789 /* LYEncriptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYEncriptTests.m; sourceTree = "<group>"; };
+		B62DC0C91DCAF242009DE789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B62DC0CE1DCAF242009DE789 /* LYEncriptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYEncriptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62DC0D21DCAF242009DE789 /* LYEncriptUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYEncriptUITests.m; sourceTree = "<group>"; };
+		B62DC0D41DCAF242009DE789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B62DC0A71DCAF242009DE789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62DC0C01DCAF242009DE789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62DC0CB1DCAF242009DE789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B62DC0A11DCAF242009DE789 = {
+			isa = PBXGroup;
+			children = (
+				B62DC0AC1DCAF242009DE789 /* LYEncript */,
+				B62DC0C61DCAF242009DE789 /* LYEncriptTests */,
+				B62DC0D11DCAF242009DE789 /* LYEncriptUITests */,
+				B62DC0AB1DCAF242009DE789 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B62DC0AB1DCAF242009DE789 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B62DC0AA1DCAF242009DE789 /* LYEncript.app */,
+				B62DC0C31DCAF242009DE789 /* LYEncriptTests.xctest */,
+				B62DC0CE1DCAF242009DE789 /* LYEncriptUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B62DC0AC1DCAF242009DE789 /* LYEncript */ = {
+			isa = PBXGroup;
+			children = (
+				B62DC0B01DCAF242009DE789 /* AppDelegate.h */,
+				B62DC0B11DCAF242009DE789 /* AppDelegate.m */,
+				B62DC0B31DCAF242009DE789 /* ViewController.h */,
+				B62DC0B41DCAF242009DE789 /* ViewController.m */,
+				B62DC0B61DCAF242009DE789 /* Main.storyboard */,
+				B62DC0B91DCAF242009DE789 /* Assets.xcassets */,
+				B62DC0BB1DCAF242009DE789 /* LaunchScreen.storyboard */,
+				B62DC0BE1DCAF242009DE789 /* Info.plist */,
+				B62DC0AD1DCAF242009DE789 /* Supporting Files */,
+			);
+			path = LYEncript;
+			sourceTree = "<group>";
+		};
+		B62DC0AD1DCAF242009DE789 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B62DC0AE1DCAF242009DE789 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B62DC0C61DCAF242009DE789 /* LYEncriptTests */ = {
+			isa = PBXGroup;
+			children = (
+				B62DC0C71DCAF242009DE789 /* LYEncriptTests.m */,
+				B62DC0C91DCAF242009DE789 /* Info.plist */,
+			);
+			path = LYEncriptTests;
+			sourceTree = "<group>";
+		};
+		B62DC0D11DCAF242009DE789 /* LYEncriptUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B62DC0D21DCAF242009DE789 /* LYEncriptUITests.m */,
+				B62DC0D41DCAF242009DE789 /* Info.plist */,
+			);
+			path = LYEncriptUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B62DC0A91DCAF242009DE789 /* LYEncript */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62DC0D71DCAF242009DE789 /* Build configuration list for PBXNativeTarget "LYEncript" */;
+			buildPhases = (
+				B62DC0A61DCAF242009DE789 /* Sources */,
+				B62DC0A71DCAF242009DE789 /* Frameworks */,
+				B62DC0A81DCAF242009DE789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYEncript;
+			productName = LYEncript;
+			productReference = B62DC0AA1DCAF242009DE789 /* LYEncript.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B62DC0C21DCAF242009DE789 /* LYEncriptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62DC0DA1DCAF242009DE789 /* Build configuration list for PBXNativeTarget "LYEncriptTests" */;
+			buildPhases = (
+				B62DC0BF1DCAF242009DE789 /* Sources */,
+				B62DC0C01DCAF242009DE789 /* Frameworks */,
+				B62DC0C11DCAF242009DE789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B62DC0C51DCAF242009DE789 /* PBXTargetDependency */,
+			);
+			name = LYEncriptTests;
+			productName = LYEncriptTests;
+			productReference = B62DC0C31DCAF242009DE789 /* LYEncriptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B62DC0CD1DCAF242009DE789 /* LYEncriptUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62DC0DD1DCAF242009DE789 /* Build configuration list for PBXNativeTarget "LYEncriptUITests" */;
+			buildPhases = (
+				B62DC0CA1DCAF242009DE789 /* Sources */,
+				B62DC0CB1DCAF242009DE789 /* Frameworks */,
+				B62DC0CC1DCAF242009DE789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B62DC0D01DCAF242009DE789 /* PBXTargetDependency */,
+			);
+			name = LYEncriptUITests;
+			productName = LYEncriptUITests;
+			productReference = B62DC0CE1DCAF242009DE789 /* LYEncriptUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B62DC0A21DCAF242009DE789 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = liyang;
+				TargetAttributes = {
+					B62DC0A91DCAF242009DE789 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6FWU53G3PX;
+						ProvisioningStyle = Manual;
+					};
+					B62DC0C21DCAF242009DE789 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B62DC0A91DCAF242009DE789;
+					};
+					B62DC0CD1DCAF242009DE789 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B62DC0A91DCAF242009DE789;
+					};
+				};
+			};
+			buildConfigurationList = B62DC0A51DCAF242009DE789 /* Build configuration list for PBXProject "LYEncript" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B62DC0A11DCAF242009DE789;
+			productRefGroup = B62DC0AB1DCAF242009DE789 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B62DC0A91DCAF242009DE789 /* LYEncript */,
+				B62DC0C21DCAF242009DE789 /* LYEncriptTests */,
+				B62DC0CD1DCAF242009DE789 /* LYEncriptUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B62DC0A81DCAF242009DE789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62DC0BD1DCAF242009DE789 /* LaunchScreen.storyboard in Resources */,
+				B62DC0BA1DCAF242009DE789 /* Assets.xcassets in Resources */,
+				B62DC0B81DCAF242009DE789 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62DC0C11DCAF242009DE789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62DC0CC1DCAF242009DE789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B62DC0A61DCAF242009DE789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62DC0B51DCAF242009DE789 /* ViewController.m in Sources */,
+				B62DC0B21DCAF242009DE789 /* AppDelegate.m in Sources */,
+				B62DC0AF1DCAF242009DE789 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62DC0BF1DCAF242009DE789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62DC0C81DCAF242009DE789 /* LYEncriptTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62DC0CA1DCAF242009DE789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62DC0D31DCAF242009DE789 /* LYEncriptUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B62DC0C51DCAF242009DE789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B62DC0A91DCAF242009DE789 /* LYEncript */;
+			targetProxy = B62DC0C41DCAF242009DE789 /* PBXContainerItemProxy */;
+		};
+		B62DC0D01DCAF242009DE789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B62DC0A91DCAF242009DE789 /* LYEncript */;
+			targetProxy = B62DC0CF1DCAF242009DE789 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B62DC0B61DCAF242009DE789 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B62DC0B71DCAF242009DE789 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B62DC0BB1DCAF242009DE789 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B62DC0BC1DCAF242009DE789 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B62DC0D51DCAF242009DE789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B62DC0D61DCAF242009DE789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B62DC0D81DCAF242009DE789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6FWU53G3PX;
+				INFOPLIST_FILE = LYEncript/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyang.LYEncript;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f7ee026b-92db-4495-a68c-013e272e9109";
+				PROVISIONING_PROFILE_SPECIFIER = lyAppIDProfiles;
+			};
+			name = Debug;
+		};
+		B62DC0D91DCAF242009DE789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6FWU53G3PX;
+				INFOPLIST_FILE = LYEncript/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyang.LYEncript;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f7ee026b-92db-4495-a68c-013e272e9109";
+				PROVISIONING_PROFILE_SPECIFIER = lyAppIDProfiles;
+			};
+			name = Release;
+		};
+		B62DC0DB1DCAF242009DE789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LYEncriptTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyang.LYEncriptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYEncript.app/LYEncript";
+			};
+			name = Debug;
+		};
+		B62DC0DC1DCAF242009DE789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LYEncriptTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyang.LYEncriptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYEncript.app/LYEncript";
+			};
+			name = Release;
+		};
+		B62DC0DE1DCAF242009DE789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LYEncriptUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyang.LYEncriptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYEncript;
+			};
+			name = Debug;
+		};
+		B62DC0DF1DCAF242009DE789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LYEncriptUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyang.LYEncriptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYEncript;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B62DC0A51DCAF242009DE789 /* Build configuration list for PBXProject "LYEncript" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62DC0D51DCAF242009DE789 /* Debug */,
+				B62DC0D61DCAF242009DE789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B62DC0D71DCAF242009DE789 /* Build configuration list for PBXNativeTarget "LYEncript" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62DC0D81DCAF242009DE789 /* Debug */,
+				B62DC0D91DCAF242009DE789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B62DC0DA1DCAF242009DE789 /* Build configuration list for PBXNativeTarget "LYEncriptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62DC0DB1DCAF242009DE789 /* Debug */,
+				B62DC0DC1DCAF242009DE789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B62DC0DD1DCAF242009DE789 /* Build configuration list for PBXNativeTarget "LYEncriptUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62DC0DE1DCAF242009DE789 /* Debug */,
+				B62DC0DF1DCAF242009DE789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B62DC0A21DCAF242009DE789 /* Project object */;
+}
